@@ -1,5 +1,5 @@
 function calculateBMI(weight, height) {
-    return weight/(height*height);   // The function returns the product of p1 and p2
+    return weight/(height*height);  
   }
 function getBMIMeaning(weight, height){
     let x=calculateBMI(weight,height);
@@ -13,6 +13,3 @@ function getBMIMeaning(weight, height){
 }
 
 
-console.log(getBMIMeaning(65,1.8));
-console.log(getBMIMeaning(80,1.7));
-console.log(getBMIMeaning(44,1.6));
